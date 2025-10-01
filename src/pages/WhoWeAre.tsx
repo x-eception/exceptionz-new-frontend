@@ -70,7 +70,7 @@ const WhoWeAre = () => {
             <div className="animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Building the Future of Technology</h2>
               <p className="text-muted-foreground text-lg mb-4">
-                Founded in 2020, Settlo Tech has rapidly grown into a leading technology solutions provider,
+                Founded in 2021, Exceptionz has rapidly grown into a leading technology solutions provider,
                 serving clients across the globe. Our journey began with a simple mission: to make cutting-edge
                 technology accessible to businesses of all sizes.
               </p>

@@ -10,7 +10,7 @@ const AIFabButton = () => {
       {/* FAB Button */}
       <Button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-8 right-8 h-16 w-16 rounded-full shadow-elegant glow-effect gradient-accent animate-float hover:scale-110 transition-transform duration-300 z-40"
+        className="fixed bottom-8 right-8 h-16 w-16 rounded-full shadow-elegant glow-effect gradient-accent animate-float hover:scale-110 transition-transform duration-550 z-40"
         size="icon"
       >
         {isOpen ? (
@@ -31,7 +31,7 @@ const AIFabButton = () => {
           <div className="flex-1 p-4 overflow-y-auto">
             <div className="space-y-4">
               <div className="bg-muted p-3 rounded-lg max-w-[80%]">
-                <p className="text-sm">Hello! I'm your AI assistant. Feel free to ask me anything about Settlo Tech's services, portfolio, or general inquiries.</p>
+                <p className="text-sm">Hello! I'm your AI assistant. Feel free to ask me anything about Exceptionz Tech's services, portfolio, or general inquiries.</p>
               </div>
             </div>
           </div>

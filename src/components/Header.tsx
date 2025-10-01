@@ -4,7 +4,7 @@ import { Menu, X, Search, Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useTheme } from 'next-themes';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/logo.jpg';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,7 +46,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <img src={logo} alt="Settlo Tech" className="h-10 w-10 transition-transform group-hover:scale-110" />
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-teal-500 bg-clip-text text-transparent">
-              Settlo Tech
+              Exceptionz
             </span>
           </Link>
 

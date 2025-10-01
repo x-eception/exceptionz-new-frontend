@@ -36,16 +36,16 @@ const Home = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${heroBanner})` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/95" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/75 via-background/70 to-background/75" />
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-teal-500 to-accent bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-bold mb-10 bg-gradient-to-r from-primary via-teal-500 to-accent bg-clip-text text-transparent">
               Transform Your Vision Into Reality
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in-delay">
-              Settlo Tech delivers world-class technology solutions that drive innovation and growth for businesses worldwide.
+              We ex-ceptionz delivers world-class technology solutions that drive innovation and growth for businesses worldwide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
               <Link to="/contact">

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Instagram, Facebook, Github, Youtube, Mail, Phone, MapPin } from 'lucide-react';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/logo.jpg';
 
 const Footer = () => {
   const quickLinks = [
@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <img src={logo} alt="Settlo Tech" className="h-10 w-10" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-teal-500 bg-clip-text text-transparent">
-                Settlo Tech
+                Exceptionz
               </span>
             </div>
             <p className="text-muted-foreground text-sm">
@@ -96,11 +96,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3 text-muted-foreground">
                 <Mail className="h-5 w-5 mt-0.5 text-primary" />
-                <span>info@settlotech.com</span>
+                <span>exceptionzofficial@gmail.com</span>
               </li>
               <li className="flex items-start space-x-3 text-muted-foreground">
                 <Phone className="h-5 w-5 mt-0.5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9361016097</span>
               </li>
               <li className="flex items-start space-x-3 text-muted-foreground">
                 <MapPin className="h-5 w-5 mt-0.5 text-primary" />
@@ -112,7 +112,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Settlo Tech. All rights reserved. Built with innovation and passion.</p>
+          <p>© {new Date().getFullYear()} Exceptionz. All rights reserved. Built with innovation and passion.</p>
         </div>
       </div>
     </footer>
