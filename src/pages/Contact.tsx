@@ -27,14 +27,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'info@settlotech.com',
-      link: 'mailto:info@settlotech.com',
+      value: 'exceptionzofficial@gmail.com',
+      link: 'mailto:exceptionzofficial@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91 9361016097',
+      link: 'tel:+919361016097',
     },
     {
       icon: MapPin,
@@ -185,7 +185,7 @@ const Contact = () => {
               {/* Map */}
               <div className="bg-card rounded-2xl border border-border overflow-hidden h-80">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3325395304414!2d-122.01116148467422!3d37.33463524513264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59127ce078f%3A0x18e1c3ce7becf1b!2sApple%20Park!5e0!3m2!1sen!2sus!4v1637309850935!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.5868356834449!2d77.4346136441607!3d11.454835781306626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93d004860940d%3A0x6bfc173982757892!2sBus%20stand!5e0!3m2!1sen!2sin!4v1759378460101!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

@@ -9,25 +9,25 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'MahaLakshmi Garments',
       category: 'web',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800',
-      description: 'A full-featured e-commerce platform with AI-powered recommendations',
-      tags: ['React', 'Node.js', 'AI'],
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/Screenshot+2025-10-03+141018.png',
+      description: 'Growing Clothing Company.',
+      tags: ['MERN', 'GCP'],
     },
     {
-      title: 'Healthcare Mobile App',
-      category: 'mobile',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800',
-      description: 'Cross-platform health tracking app with real-time analytics',
-      tags: ['React Native', 'Firebase', 'Analytics'],
+      title: 'Scoops Dreamz',
+      category: 'web',
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/Screenshot+2025-10-03+141101.png',
+      description: 'ice Cream Website',
+      tags: ['MERN', 'AWS'],
     },
     {
-      title: 'AI Chatbot Solution',
-      category: 'ai',
-      image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800',
+      title: 'Sparkling Events',
+      category: 'web',
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/Screenshot+2025-10-03+141356.png',
       description: 'Intelligent customer service chatbot with NLP capabilities',
-      tags: ['Python', 'TensorFlow', 'NLP'],
+      tags: ['MERN', 'AWS'],
     },
     {
       title: 'Brand Identity System',
@@ -106,10 +106,10 @@ const Portfolio = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
-                    <Button variant="secondary" size="sm">
+                    {/* <Button variant="secondary" size="sm">
                       View Details
                       <ExternalLink className="ml-2 h-4 w-4" />
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
                 <div className="p-6">

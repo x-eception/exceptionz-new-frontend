@@ -3,24 +3,24 @@ import { Target, Eye, Heart, Award } from 'lucide-react';
 const WhoWeAre = () => {
   const team = [
     {
-      name: 'Sarah Johnson',
-      role: 'CEO & Founder',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+      name: 'Bharath Kumar',
+      role: 'CEO',
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/bharath.png',
     },
     {
-      name: 'Michael Chen',
+      name: 'Hari Prasath',
       role: 'CTO',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/cartoon+image+hari.png',
     },
     {
-      name: 'Emily Rodriguez',
-      role: 'Head of Design',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400',
+      name: 'Jack',
+      role: 'Manager',
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/jack2.jpg',
     },
     {
-      name: 'David Kim',
-      role: 'Lead Developer',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400',
+      name: 'Prem',
+      role: 'Tech Lead',
+      image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/prem.png',
     },
   ];
 
