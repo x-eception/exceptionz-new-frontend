@@ -5,7 +5,7 @@ import { ExternalLink } from 'lucide-react';
 const Portfolio = () => {
   const [filter, setFilter] = useState('all');
 
-  const categories = ['all', 'web', 'mobile', 'ai', 'design'];
+  const categories = ['all', 'web', 'mobile'];
 
   const projects = [
     {
@@ -34,35 +34,35 @@ const Portfolio = () => {
       category: 'mobile',
       image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/1.png',
       description: 'Daily dose of inspiration with motivational quotes. Available on play store',
-      tags: ['Figma', 'Brand Design', 'UI/UX'],
+      tags: ['React-Native', 'AWS', 'Play-Store'],
     },
     {
       title: 'AWS Exam Partner',
       category: 'mobile',
       image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/2.png',
       description: 'Your trusted partner for AWS certification exams. Available on play store',
-      tags: ['Vue.js', 'D3.js', 'PostgreSQL'],
+      tags: ['React-Native', 'AWS', 'Play-Store'],
     },
     {
-      title: 'Fitness Tracker App',
+      title: 'Fresh Mart',
       category: 'mobile',
       image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/3.png',
-      description: 'Personal fitness tracking with social features',
-      tags: ['Flutter', 'Firebase', 'Wearables'],
+      description: 'Grocery shopping made easy with Grocessary App.',
+      tags: ['React-Native', 'AWS'],
     },
         {
-      title: 'Fitness Tracker App',
+      title: 'Invoice Generator App',
       category: 'mobile',
       image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/4.png',
-      description: 'Personal fitness tracking with social features',
-      tags: ['Flutter', 'Firebase', 'Wearables'],
+      description: 'Generate and manage invoices on the one touch.',
+      tags: ['React-Native', 'AWS'],
     },
         {
-      title: 'Fitness Tracker App',
+      title: 'SpotFix - Mechanic Finder',
       category: 'mobile',
       image: 'https://assets-for-personal-use.s3.ap-south-1.amazonaws.com/5.png',
-      description: 'Personal fitness tracking with social features',
-      tags: ['Flutter', 'Firebase', 'Wearables'],
+      description: 'Find trusted mechanics near you with Mechanic App.',
+      tags: ['React-Native', 'AWS'],
     },
   ];
 
@@ -77,7 +77,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-teal-500 bg-clip-text text-transparent">
-              Our Portfolio
+              Our Recent Portfolio
             </h1>
             <p className="text-xl text-muted-foreground">
               Showcasing our best work and success stories from clients around the world.
