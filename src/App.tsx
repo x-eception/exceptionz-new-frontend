@@ -13,6 +13,7 @@ import Portfolio from "./pages/Portfolio";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import SplashCursor from "./components/SplashCursor";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <SplashCursor />
         <BrowserRouter>
           <div className="flex flex-col min-h-screen">
             <Header />

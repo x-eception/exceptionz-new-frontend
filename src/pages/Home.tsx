@@ -3,6 +3,7 @@ import { ArrowRight, Code, Sparkles, Rocket, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import heroBanner from '@/assets/hero-banner.jpg';
 import AIFabButton from '@/components/AIFabButton';
+import Galaxy from '@/components/Galaxy';
 
 const Home = () => {
   const services = [
@@ -32,18 +33,30 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroBanner})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-background/75 via-background/70 to-background/75" />
-        </div>
+      <div className="absolute inset-0">
+                <Galaxy 
+                  mouseRepulsion={true}
+                  mouseInteraction={true}
+                  density={1.2}
+                  glowIntensity={0.4}
+                  saturation={0.6}
+                  hueShift={200}
+                  transparent={false}
+                />
+                {/* <div className="absolute inset-0 bg-gradient-to-r from-background/75 via-background/70 to-background/75" /> */}
+              </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-10 bg-gradient-to-r from-primary via-teal-500 to-accent bg-clip-text text-transparent">
+
+          <div className="animated-gradient-text text-5xl md:text-7xl font-bold mb-10">
+            <span className="gradient-overlay"></span>
+            <span className="text-content">
               Transform Your Vision Into Reality
-            </h1>
+            </span>
+          </div>
+
+
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in-delay">
               We ex-ceptionz delivers world-class technology solutions that drive innovation and growth for businesses worldwide.
             </p>

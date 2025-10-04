@@ -148,4 +148,33 @@ All colors MUST be HSL.
       opacity: 1;
     }
   }
+
+@layer components {
+  .animated-gradient-text {
+    display: inline-block;
+    font-weight: 700;
+    background: linear-gradient(
+      90deg,
+      hsl(var(--primary)),      /* existing primary color */
+      hsl(var(--teal)),         /* existing teal color */
+      hsl(var(--accent)),       /* existing accent color */
+      hsl(340, 80%, 60%),       /* add a pink/red tone */
+      hsl(50, 90%, 60%)         /* add a yellow/orange tone */
+    );
+    background-size: 500% 100%;  /* increase gradient size for smoother color cycling */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 5s linear infinite;  /* slower for smoother transitions */
+  }
+
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+
 }
