@@ -20,7 +20,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Facebook, href: '#', label: 'Facebook' },
+    { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61577979906927', label: 'Facebook' },
     // { icon: Github, href: '#', label: 'GitHub' },
     // { icon: Youtube, href: '#', label: 'YouTube' },
   ];

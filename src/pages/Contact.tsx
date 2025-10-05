@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
+import axios from 'axios';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -14,13 +15,21 @@ const Contact = () => {
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+const handleSubmit = async(e: React.FormEvent) => {
     e.preventDefault();
+    setFormData({ name: '', email: '', subject: '', message: '' });
+    try {
+     console.log(import.meta.env.PUBLIC_URL);
+     
+     await axios.post(`${import.meta.env.VITE_PUBLIC_URL}/contactus`, formData);
+   } catch (error) {
+      console.log("Error sending message:", error);
+      // alert("Error sending message");
+   }
     toast({
       title: 'Message Sent!',
       description: 'Thank you for contacting us. We\'ll get back to you soon.',
     });
-    setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
   const contactInfo = [
@@ -47,7 +56,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-600' },
     { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:text-pink-600' },
-    { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-700' },
+    { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=61577979906927', label: 'Facebook', color: 'hover:text-blue-700' },
     // { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-800 dark:hover:text-gray-300' },
     // { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:text-red-600' },
   ];
