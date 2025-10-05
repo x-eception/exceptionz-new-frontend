@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Address',
-      value: '123 Tech Street, Silicon Valley, CA 94025',
+      value: 'Gobichettipalaym, Erode, TamilNadu, India-638 453',
       link: '#',
     },
   ];
@@ -48,8 +48,8 @@ const Contact = () => {
     { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-600' },
     { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:text-pink-600' },
     { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:text-blue-700' },
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-800 dark:hover:text-gray-300' },
-    { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:text-red-600' },
+    // { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-800 dark:hover:text-gray-300' },
+    // { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:text-red-600' },
   ];
 
   return (

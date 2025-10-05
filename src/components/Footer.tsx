@@ -21,8 +21,8 @@ const Footer = () => {
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Instagram, href: '#', label: 'Instagram' },
     { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Youtube, href: '#', label: 'YouTube' },
+    // { icon: Github, href: '#', label: 'GitHub' },
+    // { icon: Youtube, href: '#', label: 'YouTube' },
   ];
 
   return (
@@ -104,7 +104,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3 text-muted-foreground">
                 <MapPin className="h-5 w-5 mt-0.5 text-primary" />
-                <span>123 Tech Street, Silicon Valley, CA 94025</span>
+                <span>Gobichettipalaym, Erode, TamilNadu, India-638 453</span>
               </li>
             </ul>
           </div>
