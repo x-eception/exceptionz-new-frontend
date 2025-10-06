@@ -26,7 +26,7 @@ const Header = () => {
     { label: 'Who We Are', path: '/who-we-are' },
     { label: 'Services', path: '/services' },
     { label: 'Portfolio', path: '/portfolio' },
-    { label: 'Blogs', path: '/blogs' },
+    // { label: 'Blogs', path: '/blogs' },
     { label: 'Contact', path: '/contact' },
   ];
 
